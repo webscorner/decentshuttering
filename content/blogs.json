@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "title": "Choosing scaffolding for your construction project",
+      "slug": "choosing-scaffolding",
+      "date": "2026-11-22",
+      "category": "Project guide",
+      "image": "images/gallery/gallery-01.jpg",
+      "image_alt": "Scaffolding at a building construction site",
+      "excerpt": "Understand what to consider when matching a scaffolding system to your site, schedule and work scope.",
+      "body": "Start by considering the kind of work taking place, the height and layout of the structure, access needs and the expected duration of the job. The right setup depends on the site and work scope, so review requirements with a competent site professional before arranging equipment.\n\nAlso consider how materials will be delivered, stored and moved around the site. Clear planning helps reduce interruptions and makes it easier for everyone to understand what is needed and when."
+    },
+    {
+      "title": "Shuttering essentials: planning for a smoother pour",
+      "slug": "shuttering-essentials",
+      "date": "2026-11-18",
+      "category": "Construction basics",
+      "image": "images/gallery/gallery-02.jpg",
+      "image_alt": "Concrete construction in progress",
+      "excerpt": "A quick overview of how thoughtful formwork preparation supports accuracy and efficient work.",
+      "body": "Shuttering helps shape and support concrete while it is placed and hardens. Before work starts, confirm the dimensions, layout and materials required for the project with your construction team.\n\nOrganizing materials in advance, checking that components are suitable for the planned use and following the project's engineering and safety guidance can help make the work more predictable."
+    },
+    {
+      "title": "Keeping site support materials ready for work",
+      "slug": "site-support-materials",
+      "date": "2026-11-12",
+      "category": "Safety & quality",
+      "image": "images/gallery/gallery-03.jpg",
+      "image_alt": "Construction structure and site equipment",
+      "excerpt": "Simple checks to discuss with your site team before equipment is put into use.",
+      "body": "Before materials are used, arrange for site personnel to check them for suitability and visible damage. Use equipment only as intended and follow the project's approved methods and applicable safety procedures.\n\nGood housekeeping, clear access routes and coordination between teams all help support safer site operations. Always rely on qualified professionals for site-specific decisions and inspections."
+    }
+  ]
+}

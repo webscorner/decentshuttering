@@ -1,0 +1,51 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/blogs"
+public_folder: "/images/blogs"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    files:
+      - name: "posts"
+        label: "Blog posts"
+        file: "content/blogs.json"
+        format: "json"
+        fields:
+          - name: "posts"
+            label: "Published posts"
+            label_singular: "Post"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - name: "title"
+                label: "Title"
+                widget: "string"
+              - name: "slug"
+                label: "URL slug"
+                widget: "string"
+                hint: "Use lowercase letters, numbers, and hyphens only, for example scaffolding-basics."
+              - name: "date"
+                label: "Publication date"
+                widget: "datetime"
+                date_format: "YYYY-MM-DD"
+                time_format: false
+                format: "YYYY-MM-DD"
+              - name: "category"
+                label: "Category"
+                widget: "string"
+              - name: "image"
+                label: "Cover image"
+                widget: "image"
+              - name: "image_alt"
+                label: "Image description"
+                widget: "string"
+              - name: "excerpt"
+                label: "Short summary"
+                widget: "text"
+              - name: "body"
+                label: "Article"
+                widget: "text"
+                hint: "Separate paragraphs with a blank line."
